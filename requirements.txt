@@ -9,6 +9,8 @@ torchaudio==2.2.0
 opencv-python-headless
 Pillow
 ultralytics
+numpy
+
 
 
 # --extra-index-url https://download.pytorch.org/whl/cpu
