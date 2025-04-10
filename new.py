@@ -94,7 +94,7 @@ st.markdown("""
     <h4>🔍 How to Use:</h4>
     <ul>
         <li>📁 Upload an image of your inventory or storage</li>
-        <li>🤖 Let our YOLOv8 model detect and annotate objects</li>
+        <li>🤖 Let our AI model detect and annotate objects</li>
         <li>📊 Instantly view the count of detected items</li>
     </ul>
     <p>Supports JPG, JPEG, PNG. Max size: 200MB</p>
@@ -134,4 +134,4 @@ if uploaded_file is not None:
     os.remove(temp_path)
 
 # Footer
-st.markdown('<div class="footer">Crafted with 💙 using YOLOv8 and Streamlit</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Crafted with 💙 using AI and Streamlit</div>', unsafe_allow_html=True)
