@@ -86,7 +86,7 @@ st.markdown("""
 
 # App Title and Subtitle
 st.markdown('<div class="main-title">📦 Inventory Object Detector</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Detect and count items in your inventory image using YOLOv8 AI</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Detect and count items in your inventory image using AI</div>', unsafe_allow_html=True)
 
 # Instructions Box
 st.markdown("""
