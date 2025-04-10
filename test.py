@@ -51,7 +51,7 @@ st.markdown("""
 
 # Title and description
 st.markdown('<div class="main-title">📦 Inventory Object Detector</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtext">Upload an inventory image and detect objects using a YOLOv8 model.</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtext">Upload an inventory image and detect objects</div>', unsafe_allow_html=True)
 
 # Upload
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])

@@ -9,7 +9,7 @@ model = YOLO("saved_model.pt")
 
 st.set_page_config(page_title="📦 Inventory Object Detector", layout="centered")
 st.title("📦 Inventory Object Detector")
-st.write("Upload an image of your inventory and detect objects using a YOLOv8 model.")
+st.write("Upload an image of your inventory and detect objects")
 
 # Upload image
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
